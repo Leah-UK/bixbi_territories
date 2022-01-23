@@ -18,7 +18,7 @@
 - <a href='https://github.com/Leah-UK/bixbi_core'>bixbi_core</a>
 - <a href='https://github.com/overextended/qtarget'>qtarget</a>
 - <a href='https://github.com/zf-development/zf_context'>zf_context</a> (Optional)
-
+- <a href='https://github.com/zf-development/zf_dialog'>zf_dialog</a> (Optional)
 
 ---
 
@@ -27,7 +27,7 @@
 <b>Open Menu</b>
 <code>TriggerClientEvent('bixbi_territories:TerritoryInfoMenu')</code>
 
-<b>Sale Complete</b>
+<b>Sale Complete</b></br>
 <code>TriggerServerEvent('bixbi_territories:sv_Sale', source, zone, type*, amount*, item*, count*)</code>
 <i><b>*</b> = Optional. If location is nil you need to supply localPlayerId, and vice-versa.</i>
 
