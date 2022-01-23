@@ -16,6 +16,7 @@ System for gangs to capture zones (areas) on the map. Once captured gangs can ma
 - <a href='https://github.com/overextended/es_extended'>"Ox" ESX</a>,<i> You can modify for other frameworks. <b>Please make a PR if you do</b></i>
 - <a href='https://github.com/Leah-UK/bixbi_core'>bixbi_core</a>
 - <a href='https://github.com/overextended/qtarget'>qtarget</a>
+- <a href='https://github.com/overextended/ox_inventory'>ox_inventory</a>
 - <a href='https://github.com/Leah-UK/bixbi_illegalsales'>bixbi_illegalsales</a> (Optional)
 - <a href='https://github.com/zf-development/zf_context'>zf_context</a> (Optional)
 - <a href='https://github.com/zf-development/zf_dialog'>zf_dialog</a> (Optional)
