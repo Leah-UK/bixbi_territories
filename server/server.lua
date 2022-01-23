@@ -132,7 +132,7 @@ end)
 
 RegisterServerEvent('bixbi_territories:CaptureStart')
 AddEventHandler('bixbi_territories:CaptureStart', function(name)
-    if (not Config.CaptureEnabled or not Config.Territories[name].capture.enabled) then return end
+    if (not Config.CaptureEnabled or not Config.Territories[name].capture.enabled or dbTerritory[name] == nil) then return end
     local xPlayer = ESX.GetPlayerFromId(source)
     if (Config.BlacklistedJobs[xPlayer.job.name] ~= nil) then
         TriggerClientEvent('bixbi_core:Notify', source, 'error', 'You cannot capture a territory as this job.')
